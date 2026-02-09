@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laneway Leads – Performance Lead Generation for Laneway & ADU Builders</title>
+  <meta name="description" content="We generate qualified homeowner leads for laneway & ADU builders across North America." />
+
+  <style>
+    :root {
+      --bg: #0b0f16;
+      --bg-deep: #070a10;
+      --panel: #111827;
+      --border: rgba(255,255,255,0.08);
+      --text: #ffffff;
+      --muted: rgba(255,255,255,0.65);
+      --accent: #f4a259;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg-deep), var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 22px 64px;
+      background: rgba(7,10,16,0.85);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+
+    .logo span { color: var(--accent); }
+
+    section {
+      padding: 180px 64px;
+      position: relative;
+    }
+
+    section.alt {
+      background: linear-gradient(180deg, rgba(17,24,39,0.95), rgba(7,10,16,0.95));
+    }
+
+    section.soft {
+      background: linear-gradient(180deg, rgba(7,10,16,0.95), rgba(17,24,39,0.9));
+    }
+
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background:
+        linear-gradient(180deg, rgba(7,10,16,0.55), rgba(7,10,16,0.92)),
+        url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;
+    }
+
+    .hero h1 {
+      font-size: 68px;
+      max-width: 1100px;
+      margin-bottom: 32px;
+      letter-spacing: -0.025em;
+    }
+
+    .hero h1 span { color: var(--accent); }
+
+    .hero p {
+      font-size: 22px;
+      max-width: 820px;
+      color: var(--muted);
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 52px;
+      padding: 20px 44px;
+      background: var(--accent);
+      color: #000;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    /* STATS */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 120px;
+      margin-top: 120px;
+    }
+
+    .stat h3 {
+      font-size: 46px;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .stat p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* SECTION HEADINGS */
+    h2 {
+      font-size: 52px;
+      letter-spacing: -0.02em;
+      margin-bottom: 28px;
+    }
+
+    h2 span { color: var(--accent); }
+
+    .sub {
+      font-size: 18px;
+      max-width: 720px;
+      color: var(--muted);
+    }
+
+    /* GRID CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 48px;
+      margin-top: 72px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(17,24,39,0.9), rgba(17,24,39,0.7));
+      border: 1px solid var(--border);
+      padding: 48px;
+      border-radius: 6px;
+    }
+
+    .card h3 {
+      font-size: 21px;
+      margin-bottom: 14px;
+      color: var(--accent);
+    }
+
+    .card p {
+      font-size: 16px;
+      color: var(--muted);
+    }
+
+    /* PROCESS */
+    .process {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      margin-top: 72px;
+    }
+
+    .step {
+      padding: 36px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .step span {
+      color: var(--accent);
+      font-weight: 700;
+      margin-right: 12px;
+    }
+
+    /* FINAL CTA */
+    .final {
+      background: linear-gradient(180deg, rgba(7,10,16,0.85), rgba(7,10,16,1));
+      border-top: 1px solid var(--border);
+    }
+
+    footer {
+      padding: 80px 64px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Laneway <span>Leads</span></div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>We Don’t Just Run Ads.<br><span>We Fill Laneway Build Schedules.</span></h1>
+    <p>
+      Laneway Leads helps laneway & ADU builders across North America generate qualified homeowner inquiries using advertising built specifically for how these projects actually sell.
+    </p>
+    <a href="#" class="cta">Get Leads</a>
+
+    <div class="stats">
+      <div class="stat">
+        <h3>100%</h3>
+        <p>Laneway & ADU Focused</p>
+      </div>
+      <div class="stat">
+        <h3>North America</h3>
+        <p>Bylaw & Region-Aware Targeting</p>
+      </div>
+      <div class="stat">
+        <h3>No Contracts</h3>
+        <p>Performance-Based Engagement</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY GENERIC FAIL -->
+<section class="alt">
+<section>
+  <div class="container">
+    <h2>Why Generic Agencies <span>Fail Builders</span></h2>
+    <p class="sub">Laneway and ADU projects have constraints most agencies don’t understand. That’s where most marketing spend gets wasted.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Poor Lead Quality</h3>
+        <p>Homeowners with no understanding of laneway costs, permitting timelines, or feasibility clog your pipeline.</p>
+      </div>
+      <div class="card">
+        <h3>Wrong Markets</h3>
+        <p>Most agencies don’t know where laneway builds are even allowed, let alone viable.</p>
+      </div>
+      <div class="card">
+        <h3>No Industry Context</h3>
+        <p>Laneways are not renovations. Messaging must filter early or deals never close.</p>
+      </div>
+      <div class="card">
+        <h3>High Cost Per Lead</h3>
+        <p>Broad campaigns burn ad spend on people who were never serious buyers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="soft">
+  <div class="container">
+    <h2>How It <span>Works</span></h2>
+    <p class="sub">A simple, repeatable system built around real laneway sales cycles.</p>
+
+    <div class="process">
+      <div>
+        <div class="step"><span>01</span> Region & Bylaw Mapping</div>
+        <div class="step"><span>02</span> Homeowner Intent Filtering</div>
+        <div class="step"><span>03</span> Budget & Timeline Pre‑Qual</div>
+      </div>
+      <div>
+        <div class="step"><span>04</span> Direct Lead Delivery</div>
+        <div class="step"><span>05</span> Weekly Optimization</div>
+        <div class="step"><span>06</span> Scale When You’re Ready</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY LANEWAY LEADS -->
+<section class="alt">
+  <div class="container">
+    <h2>Why <span>Laneway Leads</span></h2>
+    <p class="sub">This isn’t generic lead gen. It’s built around how laneway and ADU projects actually get approved, quoted, and sold.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Bylaw‑Aware Targeting</h3>
+        <p>We only target homeowners in municipalities where laneway and ADU construction is feasible today.</p>
+      </div>
+      <div class="card">
+        <h3>Builder‑First Filtering</h3>
+        <p>Our forms and messaging remove tire‑kickers before they ever hit your inbox.</p>
+      </div>
+      <div class="card">
+        <h3>No Long‑Term Lock‑In</h3>
+        <p>You stay because it works — not because you’re stuck in a contract.</p>
+      </div>
+      <div class="card">
+        <h3>Capacity‑Based Scaling</h3>
+        <p>We scale campaigns around your crew size, permitting backlog, and build capacity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final alt">
+<section class="final">
+  <div class="container">
+    <h2>Ready to Scale Your <span>Laneway Business?</span></h2>
+    <p class="sub">Stop relying on referrals and inconsistent pipelines. Build a predictable flow of homeowner inquiries.</p>
+    <a href="#" class="cta">Get Leads</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Laneway Leads. Performance-based lead generation for laneway & ADU builders.
+</footer>
+
+</body>
+</html>
